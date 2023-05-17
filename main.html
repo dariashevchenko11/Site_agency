@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelling</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/checkbox.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+  <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Oswald:wght@300;400;500&family=Rubik&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  
+ 
+</head>
+<body>
+<header class="header">
+  <div class="header_in">
+    <div class="logo">
+      <a href="#">Travelling</a>
+    </div>
+
+	<div class="v1"></div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li>
+            <a href="#about_us">Про нас</a>
+          </li>
+          <li>
+            <a href="#plans">Тури</a>
+          </li>
+          <li>
+            <a href="#feedback">Відгуки</a>
+          </li>
+          
+        </ul>
+
+      </nav>
+    </div>
+    <button class="button success" onclick="window.location.href = 'form.html';">Log in</button>
+  </div>
+  </div>
+  <div class="line"></div>
+  <div class="header_in_mobile">
+    <div class="logo">
+      <a href="#">Travelling</a>
+    </div>
+    <div class="icons">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <a href="#about_us"><li>Про нас</li></a>
+            <a href="#plans"><li>Путівки</li></a>
+            <a href="#feedback"><li>Відгуки</li></a>
+			<a href="form.html"><li>Log in</li></a>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+      <div class="line"></div>
+
+</header>
+
+<main class="main">
+  <section class="about_us">
+    <div class="container-general-info" >
+      <div class="about_us_desktop">
+        <div class="row">
+          <div class=" col-md-6">
+            <div class="about_us_text_and_button">
+              <h1>Туристичне <span class="gold"> агентство</span><br></h1>
+
+              <p class="about_us_text">Ми є успішною командою молодих, але дуже досвідчених фахівців. Ми дійсно піклуємося про Ваш відпочинок і працюємо для Вас 24 години на добу, 7 днів на тиждень. 
+			  Основною цінністю нашої команди є щастя та радість клієнта. Travelling – Все заради Вашої мрії.</p>
+              <div class="about_us_button">
+                <a href="#plans">
+                  Обрати путівку
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-md-6">
+            <img class="photo_earth" src="img/earth.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+          <a href="#" class="scroll-down" address="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+            <i class="bi bi-arrow-down-short"></i>
+          </a>
+        </button>
+        </div>
+        </div>
+      </div>
+      <div class="about_us_mobile">
+        <div class="row">
+          <div class="col-12">
+            <div class="photo">
+              <img class="earth" src="img/earth.png" alt="">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="about_us_text_and_button">
+              <h3>Туристичне <span class="gold">агентство</span><br></h3>
+              <div class="photo">
+                <p class="about_us_text">Ми є успішною командою молодих, але дуже досвідчених фахівців. Ми дійсно піклуємося про Ваш відпочинок і працюємо для Вас 24 години на добу, 7 днів на тиждень. 
+			  Основною цінністю нашої команди є щастя та радість клієнта. Travelling – Все заради Вашої мрії.</p>
+                <div class="about_us_button">
+                  <a href="#plans">
+                    Обрати тур
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="how_it_works" id="about_us">
+
+    <div class="container" >
+      <h2>Про <span class="gold">нас</span></h2>
+	<br></br>
+
+      <h3 class="grey">Ми - всесвітньо відома компанія Travelling, яка вже
+        понад 10 років влаштовує незабутній відпочинок для своїх клієнтів.</h3>
+		<br>
+				<br>
+	<br></br>
+
+		<style>
+.mySlides {display:none;}
+</style>
+		<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="img/з1.jpg" style="width:100%">
+
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/з2.jpg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/з3.jpg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/з4.jpg" style="width:100%">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/з5.jpg" style="width:100%">
+</div>
+              <div class="about_us_button">
+			  <a>
+
+<button onclick="plusDivs(-1)" style="width:49.5%; background-color: #3772FF; color: white; height: 40px;   border-radius: 27px;">&#10094;</button>
+<button  onclick="plusDivs(1)" style="width:49.5%; background-color: #3772FF; color: white; height: 40px;   border-radius: 27px;">&#10095;</button>
+</a>
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+		
+		
+		
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="about_us_text_and_button">
+            <h3 href="#" class="text">Як <span class="gold">ми працюємо</span></h3>
+
+            <p class="about_us_text">Туристична агенція Travelling заснована у квітні 2023 року. 
+			Директор – Шевченко Дар'я. Основний напрямок – міжнародний туризм. 
+			<br>
+              <br>
+              Головним принципом роботи нашого турагенства є насамперед надійність, професіоналізм, стабільність і найголовнішим для нас є Турист. 
+			Індивідуальний підхід до кожного туриста, враховуючи всі його побажання щодо турів, високий професіоналізм наших менеджерів 
+			забезпечує гарний відпочинок. 
+			Наша команда докладає максимум зусиль, щоб турист отримав від відпочинку лише позитивні емоції та завжди повернувся до нас знову!
+              <br><br>
+
+            <div class="about_us_button">
+              <a href="#plans">
+Гарячий тур              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5">
+          <a href="#" class="catalog_lending">
+            <img class="background" src="img/Rectangle%202704.png" alt="">
+            <img class="second_photo" src="img/globus.png" style="height:390px" style="width:390px" alt="">
+
+          </a>
+        </div>
+        <div class="row-cols-1 col-lg-1">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plans" id="plans">
+    <h2>Обери <span class="gold">найкращий тур</span> для себе</h2>
+
+    <h3 class="grey">У нас є великий вибір путівок у понад 40 країн світу. </h3>
+	
+	<br>
+	<br>
+	<br>
+    <div class="row">
+      <div class="col-4">
+        <div class="text_and_checkbox">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="text_and_checkbox">
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="text_and_checkbox">
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="tile_box_left">
+          <div class="tile_box">
+            <div class="tile_inner_box">Болгарія</div>
+            <img class="photo_icon1" src="img/c11.jpg" alt="">
+            <div class="tile_inner_price">$200</div>
+            <div class="tile_inner_header_text">Обирайте тур <span class="gold">в Болгарію</span></div>
+            <div class="tile_inner_text">
+Забронюйте Вашу подорож у Болгарію Онлайн. Читайте відгуки і бронюйте зараз.            </div>
+            <div class="about_us_button">
+              <a href="#plans">
+                Обрати
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="tile_box_right">
+          <div class="tile_box">
+            <div class="tile_inner_box_orange">Єгипет</div>
+            <img class="photo_icon1" src="img/eg.jpg" alt="">
+            <div class="tile_inner_price"><span class="gold">$300</span></div>
+            <div class="tile_inner_header_text">Обирайте тур <span class="gold">в Єгипет</span></div>
+            <div class="tile_inner_text_2">
+Гарантія найкращої ціни. Онлайн бронювання 1,400,000+ готелів. Таксі з/до аеропорту.
+            </div>
+            <div class="about_us_button">
+              <a href="#plans">
+                Обрати
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="tile_box_left">
+          <div class="tile_box">
+            <div class="tile_inner_box_purple">Франція</div>
+            <img class="photo_icon1" src="img/fr.jpg" alt="">
+            <div class="tile_inner_price">$350+</div>
+            <div class="tile_inner_header_text">Обирайте тур <span class="gold">у Францію</span></div>
+            <div class="tile_inner_text_2">Проведіть незабутню відпустку у Франції. Якісний сервіс та зручні умови бронювання.
+            </div>
+            <div class="about_us_button">
+              <a href="#plans">
+                Обрати
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+	<br></br>
+	<br></br>
+	<br></br>
+
+    <h2><span class="gold">Відгуки</span></h2>
+    <div class="feedback" id="feedback">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="tile_table_left">
+            <div class="tile_box_feedback">
+              <div class="row">
+                <div class="col-4">
+                  <img class="avatar" src="img/unsplash_763-mBawsfg.png" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="feedback_name">Джим Керрі</div>
+                </div>
+                <div class="col-2">
+     
+              </div>
+              <div class="feedback_text">
+Дякуємо Travelling за чудовий відпочинок. Всім рекомендую!              </div>
+            </div>
+          </div>
+        </div>
+		<br>
+        <div class="col-12 col-md-4">
+          <div class="tile_table_right">
+            <div class="tile_box_feedback">
+              <div class="row">
+                <div class="col-4">
+                  <img class="avatar" src="img/unsplash_mEZ3PoFGs_k.png" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="feedback_name">Марія Танок</div>
+                </div>
+                <div class="col-2">
+              </div>
+              <div class="feedback_text">Менеджер, вислухавши всі наші бажання, підібрала той тур, який нас найбільше влаштовував. Дякую за вашу роботу</div>
+            </div>
+          </div>
+        </div>
+		<br>
+        <div class="col-12 col-md-4">
+          <div class="tile_table_left">
+            <div class="tile_box_feedback">
+              <div class="row">
+                <div class="col-4">
+                  <img class="avatar" src="img/unsplash_xOjzehJ49Hk.png" alt="">
+                </div>
+                <div class="col-6">
+                  <div class="feedback_name">Ірина Маркур</div>
+                </div>
+                <div class="col-2">
+                  
+              </div>
+              <div class="feedback_text">
+Дякую Вам за таку гарну поїздку. Усе сподобалось, залишилось море вражень.              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+
+  </section>
+</main>
+<footer class="footer">
+  <div class="line"></div>
+  <div class="protected_footer">Travelling</div>
+  <div class="container">
+    <div class="foot">
+      <div class="row">
+        <div class="col-md-2">
+          
+        </div>
+        <div class="col-md-2">
+          <div class="contact_box">
+            <a class="menu" href="#">КОНТАКТИ</a><br>
+            <a href="tel:+38096751716" class="contact_text">travelling@gmail.com</a><br>
+            <a href="#" class="contact_text">Vinnytsa, Ukraine</a><br>
+            <a href="#" class="contact_text">+38 (096)-11-22-33-4</a><br>
+          </div>
+        </div>
+        <div class="col-4">
+          <img src="img/Badgues%20_3.png" alt="">
+        </div>
+        <div class="col-4 ">
+          <a class="menu" href="#">ПІДПИСАТИСЬ НА ОНОВЛЕННЯ</a><br>
+          <div class="text_update">
+            Тут ми поширюємо всю інформацію,<br> пов’язану з нашими пропозиціями.<br>
+            Залиште свій email.
+          </div>
+          <input class="c-form__input" placeholder="E-mail" type="email"
+                 pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+        </div>
+      </div>
+    </div>
+    <div class="foot_900px">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="h12">КОНТАКТИ</div>
+          <div>
+            <a href="#">+380 44 545 77 26</a><br>
+            <a href="#">+38 (097)-11-22-33-4</a><br>
+            <a href="#">Email: travelling@gmail.com</a><br>
+            <a href="#">м. Вінниця</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="h12">ПОСЛУГИ</div>
+          <div class="posl">Наш сервіс дозволяє придбати путівки за найкращими цінами.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="foot_mobile">
+      <h3>Travelling</h3>
+      <a href="#">+380 44 545 77 26</a><br>
+      <a href="#">+38 (096)-11-22-33-4</a><br>
+      <a href="#">Email: travelling@gmail.com</a><br>
+      <a href="#">м. Вінниця</a>
+    </div>
+
+  </div>
+  <div class="last_foot">
+    <div class="container">
+      © Travelling, 2023
+    </div>
+  </div>
+
+</footer>
+<script src="https://kit.fontawesome.com/1467b92032.js" crossorigin="anonymous"></script>
+</body>
+</html>

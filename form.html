@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelling</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/checkbox.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+  <link rel="stylesheet" href="bootstrap/bootstrap-grid.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Oswald:wght@300;400;500&family=Rubik&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  
+  <style>
+  
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: black;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+background-color: #3772FF; 
+color: white; 
+height: 40px;   
+border-radius: 27px;
+  
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="header_in">
+    <div class="logo">
+      <a href="main.html">Travelling</a>
+    </div>
+
+	<div class="v1"></div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li>
+            <a href="main.html">Про нас</a>
+          </li>
+          <li>
+            <a href="main.html">Тури</a>
+          </li>
+          <li>
+            <a href="main.html">Відгуки</a>
+          </li>
+          
+        </ul>
+
+      </nav>
+    </div>
+    <button class="button success" onclick="window.location.href = 'form.html';">Log in</button>
+  </div>
+  </div>
+  <div class="line"></div>
+  <div class="header_in_mobile">
+    <div class="logo">
+      <a href="#">Travelling</a>
+    </div>
+    <div class="icons">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <a href="main.html"><li>Про нас</li></a>
+            <a href="main.html"><li>Путівки</li></a>
+            <a href="main.html"><li>Відгуки</li></a>
+			            <a href="form.html"><li>Log in</li></a>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+      <div class="line"></div>
+
+</header>
+
+<main class="main">
+  <section class="about_us">
+    <div class="container-general-info" >
+      <div class="about_us_desktop">
+
+</div>
+</div>
+
+<form>
+  <div class="container">
+    <h1>Реєстрація</h1>
+    <p>Будь ласка, заповніть дану форму, щоб зареєструватися.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Повторіть пароль</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+
+    
+    <button type="submit" class="registerbtn">Зареєструватись</button>
+  </div>
+
+ 
+</form>
